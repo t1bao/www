@@ -178,8 +178,6 @@ module.exports = function (grunt) {
             '<%= config.dist %>/styles/{,*/}*.css',
             '<%= config.dist %>/images/{,*/}*.*',
             '<%= config.dist %>/*.{ico,png}',
-            '<%= config.dist %>/android/{,*/}*.*',
-            '<%= config.dist %>/fonts/{,*/}*.*'
           ]
         }
       }
@@ -291,7 +289,6 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
             '{,*/}*.html',
-            'styles/fonts/{,*/}*.*',
             'android/{,*/}*'
           ]
         }, {
