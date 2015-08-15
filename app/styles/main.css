@@ -1,3 +1,4 @@
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7,60 +8,262 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-family: "microsoft yahei";
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+h3 {
+  font-size: 18px;
 }
 
-/* Custom page header */
+/*头部*/
+.container {
+  padding: 0;
+  width: 100%;
+}
+
+.header, .about, .leadL, .mobile, .tips, .footer {
+  padding: 0 5%;
+}
+
+/**/
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #636363;
 }
 
-/* Make the masthead heading the same height as the navigation */
 .header h3 {
-  margin-top: 0;
+  margin: 0;
+  line-height: 50px;
+}
+
+.header img {
+  width: 36px;
+  margin-right: 2%;
+}
+
+.nav > li > a {
+  color: #b3b3b3;
+  border-right: 1px solid #e6e6e6;
+  display: inline;
+  padding: 0 0.4rem;
+  font-size: 14px;
+}
+
+.nav li:last-child a {
+  border-right: none;
+}
+
+/**/
+.toplead {
+  background: url(../images/topb.jpg) no-repeat;
+  background-size: 100%;
+  height: 12.23rem;
+  color: #fff;
+  position: relative;
+}
+
+.leadL {
+  font-size: 1.3rem;
+}
+
+.toplead h1 {
+  font-weight: bold;
+  margin-top: 3.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
   margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+.toplead a {
+  background: #fff;
+  border-radius: 0.2rem;
+  color: #50b185;
+  font-size: 0.75rem;
+  padding: 2% 12%;
+  margin-top: 0.7rem;
+  display: inline-block;
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
+.toplead p {
+  margin-bottom: 0;
+  font-size: 1.3rem;
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
+.toplead span.href {
+  position: absolute;
+  top: 22.5%;
+  left: 70%;
+  font-size: 0.85rem;
+}
+
+/**/
+.mobile {
+  padding-top: 2%;
+}
+
+.mobile .m_tyk {
+  width: 39%;
+  margin-left: 9.5%;
+}
+
+.mobile .m_tyk img {
+  width: 100%;
+}
+
+.mobile .wx {
+  margin-left: -5.1%;
+}
+
+.mobile .wx h3 {
+  margin-top: 25%;
+  font-size: 24px;
+}
+
+.mobile .wx span {
+  display: inline;
+}
+
+.mobile .wx img {
+  width: 40.4%;
+  margin-top: 5%;
+}
+
+.label-success {
+  background-color: #49c50b;
+  padding: 2%;
+}
+
+.label-default {
+  color: #2a2a29;
+  background: transparent;
+  font-weight: normal;
+  font-size: 85%;
+}
+
+.fa-weixin {
+  text-shadow: rgb(66, 177, 10) 1px 1px 0px, rgb(66, 177, 10) 2px 2px 0px, rgb(66, 177, 10) 3px 3px 0px, rgb(66, 177, 10) 4px 4px 0px, rgb(66, 177, 10) 5px 5px 0px, rgb(66, 177, 10) 6px 6px 0px;
+}
+
+/**/
+.download {
+  background: #31b351;
+  padding: 5% 0;
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 }
 
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.download a {
+  border-radius: 3px;
+  padding: 5% 20%;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.download a, .download .col-md-6:last-child a .fa-windows {
+  color: #34b44f;
+  border: none;
 }
 
-.marketing p + h4 {
-  margin-top: 28px;
+.download .col-md-6:last-child a {
+  background-color: #007129;
+  color: #fff;
+}
+
+/**/
+.enter {
+  background: #ececec;
+  margin-top: 1rem;
+  position: relative;
+  padding: 5% 0;
+  width: 100%;
+}
+
+.enter:before {
+  content: "";
+  border-color: transparent transparent #ececec transparent;
+  border-width: 2rem;
+  border-style: solid;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  margin-left: -3rem;
+}
+
+.enter .col-md-6 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.enter .icon-map-marker, .ewm {
+  display: block;
+  margin: 5% auto 0;
+  width: 25%;
+}
+
+.enter .success {
+  color: #25b05a;
+}
+
+.enter img {
+  width: 100%;
+}
+
+.footer {
+  background: #2bb256;
+  color: #fff;
+  line-height: 40px;
+}
+
+/**/
+.tips {
+  color: #22b05b;
+  font-size: 18px;
+  padding-top: 5%;
+}
+
+.about {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 700px) {
+  .toplead h1 {
+    font-size: 1.3rem;
+  }
+
+  .toplead p {
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .toplead h1 {
+    font-size: 1.2rem;
+  }
+
+  .toplead p {
+    font-size: 1rem;
+  }
+
+  .toplead span.href {
+    top: 20%;
+    right: 14%;
+    font-size: 0.85rem;
+  }
+
+  .mobile .wx {
+    width: 55%;
+  }
+
+  .mobile .wx h3 {
+    margin-top: 10%;
+  }
+
+  .mobile .label-default {
+    font-size: 14px;
+  }
+
+  .download a {
+    padding: 5% 15%;
+  }
 }
 
 /* Responsive: Portrait tablets and up */
@@ -68,22 +271,30 @@ body {
   .container {
     max-width: 730px;
   }
+}
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
+@media (max-width: 992px) {
+  .col-md-6:first-child {
+    margin-right: 4%;
   }
 
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
+  .col-md-6 {
+    width: 48%;
+    float: left;
+    padding: 0;
   }
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
+  .enter .icon-map-marker, .ewm {
+    width: 50%;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .col-md-4 {
+    padding: 0;
   }
 }
+
+
