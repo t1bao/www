@@ -50,6 +50,7 @@ module.exports = function (grunt) {
       },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
+        //tasks: ['newer:copy:styles']
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
       livereload: {
@@ -344,7 +345,7 @@ module.exports = function (grunt) {
       'clean:server',
       'wiredep',
       'concurrent:server',
-      'autoprefixer',
+      //'autoprefixer',
       'connect:livereload',
       'watch'
     ]);
@@ -360,7 +361,7 @@ module.exports = function (grunt) {
       grunt.task.run([
         'clean:server',
         'concurrent:test',
-        'autoprefixer'
+        //'autoprefixer'
       ]);
     }
 
@@ -375,7 +376,7 @@ module.exports = function (grunt) {
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
-    'autoprefixer',
+    //'autoprefixer',
     'concat',
     'cssmin',
     'uglify',
