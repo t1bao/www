@@ -49,7 +49,7 @@ h3 {
 	font-size: 18px;
 	color: #636363
 }
-.header h 3 {
+.header h3 {
 	margin: 0;
 	line-height: 50px
 }
@@ -479,6 +479,14 @@ h3 {
 	}
 	.line {
 		display: none
+	}
+	.about,
+	.footer,
+	.header,
+	.leadL,
+	.mobile,
+	.tips {
+		padding: 0 15px
 	}
 	.mobile .m_tyk {
 		left: 0;
