@@ -27,10 +27,6 @@ a:hover {
   text-decoration: none
 }
 
-h3 {
-  font-size: 18px
-}
-
 .container {
   padding: 0;
   width: 100%;
@@ -60,7 +56,7 @@ h3 {
 .header h3 {
 	margin: 0;
 	line-height: 50px
-  
+
 
 }
 
@@ -195,6 +191,8 @@ h3 {
 .mobile .wx h3 {
   margin-top: 55px;
   font-size: 24px
+  height: 30px;
+  line-height: 30px;
 }
 
 .mobile .wx span {
@@ -206,12 +204,12 @@ h3 {
   margin-top: 25px
 }
 
-.mobile .label-success {
+.mobile .weixin-icon {
   background-color: #49c50b;
   padding: 0 3px;
-  width: 24px;
-  height: 24px;
-  line-height: 24px
+  width: 30px;
+  height: 30px;
+  line-height: 30px
 }
 
 .mobile .label-default {
@@ -453,7 +451,7 @@ h3 {
   .mobile .m_tyk {
     width: 503px;
     left: 130px;
-    position: absolute;
+    /*position: absolute;*/
     margin-left: 0;
   }
 
@@ -579,7 +577,7 @@ h3 {
 }
 
 @media (max-width: 640px) {
-	
+
 	.col-md-6:first-child {
 		margin-bottom: 4%
 	}
@@ -658,8 +656,8 @@ h3 {
     padding: 0
   }
 }@media (max-width: 360px){
-	.header h3 {	
+	.header h3 {
 	font-size: 16px;
 }
-	
+
 }
