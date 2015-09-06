@@ -48,15 +48,15 @@ a:hover {
 
 .header {
 
-	height: 50px;
-	line-height: 50px;
-	font-size: 18px;
-	color: #636363
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #636363
 }
-.header h3 {
-	margin: 0;
-	line-height: 50px
 
+.header h3 {
+  margin: 0;
+  line-height: 50px
 
 }
 
@@ -190,8 +190,7 @@ a:hover {
 
 .mobile .wx h3 {
   margin-top: 55px;
-  font-size: 24px
-  height: 30px;
+  font-size: 24px height : 30 px;
   line-height: 30px;
 }
 
@@ -578,52 +577,21 @@ a:hover {
 
 @media (max-width: 640px) {
 
-	.col-md-6:first-child {
-		margin-bottom: 4%
-	}
-	.line {
-		display: none
-	}
-	.about,
-	.footer,
-	.header,
-	.leadL,
-	.mobile,
-	.tips {
-		padding: 0 15px
-	}
-	.mobile .m_tyk {
-		left: 0;
-		width: auto;
-		margin-left: 5.5%
-	}
-	.mobile .wx {
-		left: 0;
-		width: auto;
-		text-align: center;
-		margin-top: -50px
-	}
-	.enter .col-md-6 {
-		font-size: 18px
-	}
-	.row {
-		margin: 0
-	}
-	.enter .col-md-6 {
-		width: 50%;
-		float: left
-	}
-	.col-md-4 {
-		padding: 0
-	}
-}
-
   .col-md-6:first-child {
     margin-bottom: 4%
   }
 
   .line {
     display: none
+  }
+
+  .about,
+  .footer,
+  .header,
+  .leadL,
+  .mobile,
+  .tips {
+    padding: 0 15px
   }
 
   .mobile .m_tyk {
@@ -655,9 +623,49 @@ a:hover {
   .col-md-4 {
     padding: 0
   }
-}@media (max-width: 360px){
-	.header h3 {
-	font-size: 16px;
 }
+
+.col-md-6:first-child {
+  margin-bottom: 4%
+}
+
+.line {
+  display: none
+}
+
+.mobile .m_tyk {
+  left: 0;
+  width: auto;
+  margin-left: 5.5%
+}
+
+.mobile .wx {
+  left: 0;
+  width: auto;
+  text-align: center;
+  margin-top: -50px
+}
+
+.enter .col-md-6 {
+  font-size: 18px
+}
+
+.row {
+  margin: 0
+}
+
+.enter .col-md-6 {
+  width: 50%;
+  float: left
+}
+
+.col-md-4 {
+  padding: 0
+}
+
+@media (max-width: 360px) {
+  .header h3 {
+    font-size: 16px;
+  }
 
 }
