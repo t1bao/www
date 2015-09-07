@@ -102,11 +102,12 @@ a:hover {
 }
 
 .leadR {
-  background: url(../images/pm.png) 0 0/100% no-repeat;
+  background: url(../images/pm.png)  no-repeat;
   width: 230px !important;
   height: 247px;
   margin: 24px auto;
   text-align: center;
+  background-size: 100%;
 }
 
 .toplead h1 {
@@ -390,7 +391,7 @@ a:hover {
   .header,
   .row {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     padding: 0 70px;
     position: relative;
   }
