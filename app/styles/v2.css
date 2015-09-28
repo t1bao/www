@@ -1,0 +1,134 @@
+.tyk, .header, .header > div.navbar {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #FFF;
+  font-size: 14px;
+}
+
+/* 导航栏开始 */
+
+.navbar > a {
+  color: #b3b3b3;
+  border-right: 1px solid #e6e6e6;
+  display: inline;
+  padding: 0 8px;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.navbar > a:last-child {
+  border-right: none;
+}
+
+.navbar > img {
+  width: 36px;
+  margin: 0 10px;
+}
+
+.navbar > span {
+  font-size: 18px;
+}
+
+.navbar {
+  height: 50px;
+  line-height: 50px;
+}
+
+.navbar.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+
+.header {
+  max-width: 1280px;
+}
+
+/* 导航栏结果 */
+
+.top-banner {
+  color: #fff;
+  position: relative;
+  background-image: linear-gradient(top, #3ab54b, #11ac68);
+  background-image: -webkit-linear-gradient(top, #3ab54b, #11ac68);
+  background-color: #3ab54b;
+  height: 500px;
+  padding: 10px;
+}
+
+.top-banner-content {
+  width: 100%;
+}
+
+.top-banner-content > div {
+  position: absolute;
+  width: 49%;
+}
+
+.top-banner-content > div.left {
+  top: 0;
+  left: 0;
+}
+
+.top-banner-content > div.right {
+  top: 0;
+  right: 0;
+}
+
+.top-banner-content > div > h1, .top-banner-content > div > p, .top-banner-content > div > p > a {
+  text-align: center;
+}
+
+.top-banner-content > div > h1 {
+  font-size: 64px;
+
+  margin-top: 160px;
+  font-weight: 700;
+}
+
+.top-banner-content > div.left > p.image {
+  background-image: url('../images/line.png');
+}
+
+.top-banner-content > div.left > p {
+  font-size: 56px;
+}
+
+.top-banner-content > div.left > p > a {
+  width: 390px;
+  height: 90px;
+  font-size: 42px;
+  line-height: 90px;
+  background: #fff;
+  border-radius: 4px;
+  color: #50b185;
+  margin-top: 15px;
+  display: inline-block;
+  -webkit-transition: all .5s ease-in-out 0s;
+  transition: all .5s ease-in-out 0s;
+}
+
+.top-banner-content > div.right > p {
+  position: relative;
+}
+
+.top-banner-content > div.right > p > * {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.top-banner-content > div.right > p > span {
+  position: relative;
+  height: 0px;
+  display: block;
+  text-align: center;
+  top: -378px;
+  font-size: 42px;
+  font-family: 'open_sansregular';
+}
+
+
